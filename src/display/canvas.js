@@ -379,7 +379,7 @@ var CanvasExtraState = (function CanvasExtraStateClosure() {
     this.charSpacing = 0;
     this.wordSpacing = 0;
     this.textHScale = 1;
-    this.textRenderingMode = TextRenderingMode.FILL;
+    this.textRenderingMode = INVISIBLE_TEXT? TextRenderingMode.INVISIBLE:TextRenderingMode.FILL;
     this.textRise = 0;
     // Default fore and background colors
     this.fillColor = '#000000';
